@@ -2,37 +2,47 @@
     --main_font_color: white;
 }
 
+*, *::before, *::after {box-sizing: inherit}
+
+html {
+  box-sizing: border-box;
+}
+
 body {
     height: 100vh;
     width: 100vw;
     font-family: Questrial, sans-serif;
     background: url(Photos/kobu-agency-7okkFhxrxNw-unsplash.jpg), #373888;
-    background-size: cover;
     background-blend-mode: soft-light;
     text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .heading {
     color: var(--main_font_color);
-    font-size: 1.75em;
+    font-size: 1.9em;
     margin-top: 4%;
 }
 
 .tagline {
     color: var(--main_font_color);
     font-style: italic;
+    font-size: 1.15em;
 
 }
 
 .card {
     margin: 10vh auto;
-    height: 100%;
     width: 80%;
     opacity: 0.90;
     border-radius: 5px;
     margin-top: 3%;
     background-color: #1f1f4b;
     font-size: 1.2em;
+    padding-top: 1em;
 }
 
 label {
@@ -56,9 +66,10 @@ textarea {
     line-height: 1.4em;
 }
 
-.intro {
+.label_intro {
     text-align: left;
-    margin-top: 2em;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
 
 }
 
@@ -69,3 +80,12 @@ textarea {
     text-align: left;
 }
 
+.input-box {
+    width: 100%;
+    font-family: Questrial, sans-serif;
+    line-height: 1.4em;
+}
+
+.selectors {
+    width: 100%;
+}
