@@ -27,9 +27,45 @@ body {
 .card {
     margin: 10vh auto;
     height: 100%;
-    width: 60%;
+    width: 80%;
     opacity: 0.90;
     border-radius: 5px;
     margin-top: 3%;
     background-color: #1f1f4b;
+    font-size: 1.2em;
 }
+
+label {
+    display: block;
+}
+
+.button  {
+background-color: #37af65;
+color: var(--main_font_color);
+font-size: 0.9em;
+border-style: none;
+border-radius: 2px;
+width: 90%;
+padding: 1em 0;
+margin: 1.5em 0
+}
+
+textarea {
+    width: 100%;
+    font-family: Questrial, sans-serif;
+    line-height: 1.4em;
+}
+
+.intro {
+    text-align: left;
+    margin-top: 2em;
+
+}
+
+.inner_card {
+    width: 90%;
+    margin: 0 auto;
+    color: var(--main_font_color);
+    text-align: left;
+}
+
