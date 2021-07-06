@@ -1,0 +1,32 @@
+:root {
+    --main_font_color: white;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: Questrial, sans-serif;
+    background: url(Photos/kobu-agency-7okkFhxrxNw-unsplash.jpg), #373888;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    text-align: center;
+}
+
+.heading {
+    color: var(--main_font_color);
+    font-size: 1.75em;
+    margin-top: 4%;
+}
+
+.tagline {
+    color: var(--main_font_color);
+    font-style: italic;
+
+}
+
+.card {
+    margin: 10vh auto;
+    height: 100%;
+    width: 50%;
+    background-color: #2b2b49;
+}
